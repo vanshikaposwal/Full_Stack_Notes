@@ -1,0 +1,49 @@
+       .container{
+        
+      border: 5px solid red;
+  
+        display: flex;
+  
+  /* to control the direction 
+        flex-direction: row;
+        flex-direction: row-reverse;
+        flex-direction: column;
+        flex-direction: column-reverse;*/
+
+        
+        /*arranging items on X axis
+        move items from left to right*/
+/*   justify-content: start;
+   */
+/*   justify-content: end; */
+/*   justify-content: space-around; */
+/*   justify-content: space-evenly; */
+/*   justify-content: space-between; */
+         
+/*  arranging items on Y axis   */
+/*  Up and down direction*/
+         height: 200px;
+/*          align-item: stretch; */
+/*          align-item: start; */
+/*          align-item: end; */
+         /* align-item: ; */
+  
+
+
+      }
+      .box {
+        background: orange;
+        padding: 10px;
+        border: 5px solid black;
+        height: 100px;
+      }
+      
+      .box-1{
+      background: pink;}
+      .box-2{
+      background: lightgreen;}
+      .box-3{
+      background: lightblue;}
+      .box-4{
+      background: grey;}
+          
