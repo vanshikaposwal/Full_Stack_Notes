@@ -38,3 +38,9 @@ const [firstColor, secondColor, thirdColor] = colors;
 console.log(firstColor);  // Output: red
 console.log(secondColor); // Output: green
 console.log(thirdColor);  // Output: blue
+
+const person = ["John", "Doe", 25, "New York"];
+const [firstName,lastName,,city] = person;
+console.log(firstName); // Output: John
+console.log(lastName);  // Output: Doe
+console.log(city); 
